@@ -23,3 +23,8 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+  - name: Publish JusiJSONHelper
+      uses: brandedoutcast/publish-nuget@v2.5.5
+      with:
+          PROJECT_FILE_PATH: JusiJSONHelper/JusiJSONHelper.csproj
+          NUGET_KEY: ${{oy2it6es4lyj5ien5sdqbfux6dctdzwudo76d4rhiraxbu}}
