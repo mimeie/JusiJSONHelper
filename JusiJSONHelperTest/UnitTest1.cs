@@ -9,8 +9,8 @@ namespace JusiJSONHelperTest
         [TestMethod]
         public void TestMethod1()
         {
-            IntHelper ih = new IntHelper();
-            bool result = ih.getResult();
+           //IntHelper ih = new IntHelper();
+            //bool result = ih.getResult();
         }
     }
 }
