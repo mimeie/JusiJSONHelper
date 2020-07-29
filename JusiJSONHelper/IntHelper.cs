@@ -6,7 +6,7 @@ namespace JusiJSONHelper
     {
         public bool getResult()
         {
-            return true;
+            return false;
         }
     }
 }
