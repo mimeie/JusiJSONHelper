@@ -9,5 +9,8 @@ namespace JusiJSONHelper
         public string val { get; set; }
         public string ack { get; set; }
         public string from { get; set; }
+        public string type { get; set; }
+        public string ts { get; set; }
+        public string ls { get; set; }
     }
 }
